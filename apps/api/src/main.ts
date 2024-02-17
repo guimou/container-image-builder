@@ -1,7 +1,7 @@
 import Fastify from 'fastify';
 import { app } from './app/app';
 import path from 'path';
-import fastifyStatic from 'fastify-static';
+import fastifyStatic from '@fastify/static';
 const host = process.env.HOST ?? 'localhost';
 const port = process.env.PORT ? Number(process.env.PORT) : 3000;
 
