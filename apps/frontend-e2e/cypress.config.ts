@@ -8,10 +8,10 @@ export default defineConfig({
       cypressDir: 'src',
       bundler: 'vite',
       webServerCommands: {
-        default: 'nx run container-image-builder:serve',
-        production: 'nx run container-image-builder:preview',
+        default: 'nx run frontend:serve',
+        production: 'nx run frontend:preview',
       },
-      ciWebServerCommand: 'nx run container-image-builder:serve-static',
+      ciWebServerCommand: 'nx run frontend:serve-static',
     }),
     baseUrl: 'http://localhost:4200',
   },

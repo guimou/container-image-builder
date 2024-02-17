@@ -1,8 +1,9 @@
 {
-  "name": "container-image-builder",
+  "name": "frontend-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/container-image-builder/src",
   "projectType": "application",
+  "sourceRoot": "apps/frontend-e2e/src",
   "targets": {},
+  "implicitDependencies": ["frontend"],
   "tags": []
 }
