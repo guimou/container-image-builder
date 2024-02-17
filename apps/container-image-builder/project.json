@@ -1,0 +1,8 @@
+{
+  "name": "container-image-builder",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/container-image-builder/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
