@@ -13,8 +13,11 @@
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {},
+    "baseUrl": "./",
+    "paths": {
+      "@frontend/*": ["apps/frontend/src/app/*"],
+      "@pf-assets/*": ["node_modules/@patternfly/react-core/dist/styles/assets/*"]
+    },
     "esModuleInterop": true
   },
   "exclude": ["node_modules", "tmp"]

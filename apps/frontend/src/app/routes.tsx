@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { Route, RouteComponentProps, Switch, useLocation } from 'react-router-dom';
-import { OriginalApp } from '@app/components/OriginalApp/OriginalApp';
-import { NewApp } from '@app/components/NewApp/NewApp';
-import { NotFound } from '@app/components/NotFound/NotFound';
-import { useDocumentTitle } from '@app/utils/useDocumentTitle';
+import { OriginalApp } from '@frontend/components/OriginalApp/OriginalApp';
+import { NewApp } from '@frontend/components/NewApp/NewApp';
+import { NotFound } from '@frontend/components/NotFound/NotFound';
+import { useDocumentTitle } from '@frontend/utils/useDocumentTitle';
 import { ClaimsList } from './components/ClaimsList/ClaimsList';
 import { ClaimDetail } from './components/ClaimDetail/ClaimDetail';
 

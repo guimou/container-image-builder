@@ -7,12 +7,7 @@
       "@nx/react/typings/cssmodule.d.ts",
       "@nx/react/typings/image.d.ts",
       "vite/client"
-    ],
-    "baseUrl": "./",
-    "paths": {
-      "@app/*": ["src/app/*"],
-      "@assets/*": ["../../node_modules/@patternfly/react-core/dist/styles/assets/*"]
-    },
+    ]
   },
   "exclude": [
     "src/**/*.spec.ts",
